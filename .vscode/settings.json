@@ -1,0 +1,43 @@
+{
+  "workbench.startupEditor": "readme",
+
+  "explorer.fileNesting.patterns": {
+    "README.md": "CLAUDE.md, .cursorrules, LICENSE, .formatter.exs, .gitignore, mix.lock, AGENTS.md, mix.exs, chatroom_dev.db*"
+  },
+
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+
+  "[phoenix-heex]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+
+  "emmet.includeLanguages": {
+    "phoenix-heex": "html",
+    "elixir": "html"
+  },
+
+  "files.associations": {
+    "*.heex": "phoenix-heex"
+  },
+
+  "elixirLS.dialyzerEnabled": true,
+  "elixirLS.fetchDeps": false,
+
+  "tailwindCSS.includeLanguages": {
+    "elixir": "html",
+    "phoenix-heex": "html"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class[:]\\s*\"([^\"]*)\"", "([^\"\\s]*)"]
+  ],
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}

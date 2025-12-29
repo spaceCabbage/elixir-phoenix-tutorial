@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Elixir Tutorial",
+      "detail": "begin, claude, learn, phoenix, guide",
+      "type": "shell",
+      "command": "claude",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

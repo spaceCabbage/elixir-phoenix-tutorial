@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "JakeBecker.elixir-ls",
+    "phoenixframework.phoenix",
+    "ecmel.vscode-html-css",
+    "bradlc.vscode-tailwindcss",
+    "alexcvzz.vscode-sqlite"
+  ]
+}
