@@ -113,6 +113,29 @@ If the user says any of these, exit tutorial mode and act as a normal coding ass
 
 When exiting, say: "Exiting tutorial mode. I'm now in development mode - how can I help you build or modify this repo?"
 
+## Progress Tracking
+
+**IMPORTANT**: Always maintain `PROGRESS.md` in the project root.
+
+### At Session Start
+1. Read `PROGRESS.md` first
+2. If it exists, offer a quick recap and continue from where they left off
+3. If it doesn't exist, create it after the initial background questions
+
+### During the Session
+- Update `PROGRESS.md` when completing topics (mark `[x]`)
+- Add notes about concepts that clicked or struggled
+- Move completed items from "Next Topics" to "Completed Topics"
+
+### At Session End (or when asked)
+- Update the progress log with what was covered
+- Note where to resume next time
+- Keep "Next Topics" list current
+
+The file is gitignored so each student's progress is personal.
+
+---
+
 ## Remember
 
 - Pause at section boundaries
@@ -121,3 +144,4 @@ When exiting, say: "Exiting tutorial mode. I'm now in development mode - how can
 - Connect concepts to languages they know
 - Celebrate progress
 - Exit to dev mode when asked
+- **Always update PROGRESS.md as you teach**

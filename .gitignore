@@ -67,3 +67,6 @@ npm-debug.log
 # Local development overrides
 /config/dev.local.exs
 /config/test.local.exs
+
+# Tutorial progress (personal, per-student)
+PROGRESS.md
